@@ -2,7 +2,7 @@
 
 def main():
 
-  n = True
+  n = input()
   numuri = {}
 
   while(n):
@@ -20,8 +20,7 @@ def main():
             print(numuri[komanda[1]])
         else:
             print("not found")
-    elif komanda[0] == "exit":
-        n = False
+    
 
 
 if __name__ == "__main__":
