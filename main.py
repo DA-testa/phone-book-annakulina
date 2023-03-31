@@ -15,8 +15,6 @@ def main():
     elif komanda[0] == "del":
         if komanda[1] in numuri:
             del numuri[komanda[1]]
-        else:
-          print("not found")
     elif komanda[0] == "find":
         if komanda[1] in numuri:
             print(numuri[komanda[1]])
