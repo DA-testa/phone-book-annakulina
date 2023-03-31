@@ -4,10 +4,7 @@ def main():
 
   n = int(input())
   numuri = {}
-  m = n
-  while(m):
-    if m > n:
-       break
+  for i in range(n):
     komanda = input().split()
     if komanda[0] == "add":
         if len(komanda) == 3:
