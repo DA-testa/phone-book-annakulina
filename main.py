@@ -2,7 +2,7 @@
 
 def main():
 
-  n = input()
+  n = int(input())
   numuri = {}
 
   while(n):
